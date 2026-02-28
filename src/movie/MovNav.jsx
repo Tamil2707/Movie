@@ -19,8 +19,8 @@ function MovNav() {
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Anime </a>
             <ul className="dropdown-menu">
-              {/* <li onClick={()=>navicator("/Movielist")} style={{ cursor: "pointer" }}><a>Movie</a>
-              </li> <li><a className="dropdown-item" href="#">Series</a></li> */}
+              <li onClick={()=>navicator("/Movlist")} style={{ cursor: "pointer" }}><a>Movie</a>
+              </li> <li><a className="dropdown-item" href="#">Series</a></li>
             </ul> </li>
           <li className="nav-item"> <a className="nav-link" href="#" >Contact</a> </li>
         </ul>
